@@ -30,18 +30,18 @@
     "figlet": "^1.2.1"
   },
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "^0.2.1",
-    "@typescript-eslint/parser": "^0.2.1",
-    "@typescript-eslint/typescript-estree": "^1.1.1",
-    "eslint": "^5.11.1",
-    "eslint-config-prettier": "^3.3.0",
-    "eslint-plugin-prettier": "^3.0.1",
-    "prettier": "^1.15.3",
-    "rollup": "^1.0.0",
-    "rollup-plugin-commonjs": "^9.2.0",
-    "rollup-plugin-node-resolve": "^4.0.0",
-    "rollup-plugin-typescript": "^1.0.0",
-    "tslib": "^1.9.3",
-    "typescript": "^3.2.4"
+    "@typescript-eslint/eslint-plugin": "0.2.1",
+    "@typescript-eslint/parser": "0.2.1",
+    "@typescript-eslint/typescript-estree": "1.2.0",
+    "eslint": "5.13.0",
+    "eslint-config-prettier": "3.6.0",
+    "eslint-plugin-prettier": "3.0.1",
+    "prettier": "1.16.4",
+    "rollup": "1.1.2",
+    "rollup-plugin-commonjs": "9.2.0",
+    "rollup-plugin-node-resolve": "4.0.0",
+    "rollup-plugin-typescript": "1.0.0",
+    "tslib": "1.9.3",
+    "typescript": "3.3.1"
   }
 }
