@@ -1,0 +1,50 @@
+{
+  "name": "api-treemap",
+  "version": "0.1.0",
+  "description": "",
+  "main": "dist/bundle.js",
+  "bin": {
+    "warsman": "./bin/api-treemap"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "develop": "rollup -c -w",
+    "format": "prettier --write './**/*.{js,ts,json,md}'",
+    "lint": "eslint --fix '**/*.js'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "MIT",
+  "repository": "jaxx2104/api-treemap",
+  "engines": {
+    "node": ">=6"
+  },
+  "keywords": [
+    "outline",
+    "ast"
+  ],
+  "author": "jaxx2104",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "chalk": "^2.4.1",
+    "commander": "^2.19.0",
+    "figlet": "^1.2.1",
+    "lodash": "^4.17.11",
+    "node-fetch": "^2.3.0"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.120",
+    "@typescript-eslint/eslint-plugin": "^0.2.1",
+    "@typescript-eslint/parser": "^0.2.1",
+    "@typescript-eslint/typescript-estree": "^1.1.1",
+    "eslint": "^5.11.1",
+    "eslint-config-prettier": "^3.3.0",
+    "eslint-plugin-prettier": "^3.0.1",
+    "prettier": "^1.15.3",
+    "rollup": "^1.0.0",
+    "rollup-plugin-commonjs": "^9.2.0",
+    "rollup-plugin-node-resolve": "^4.0.0",
+    "rollup-plugin-typescript": "^1.0.0",
+    "tslib": "^1.9.3",
+    "typescript": "^3.2.4"
+  }
+}
